@@ -1,0 +1,39 @@
+.header-container {
+  background-color: #272727;
+  padding: 20px 40px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-logo {
+  width: 120px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+}

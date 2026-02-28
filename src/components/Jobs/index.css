@@ -1,0 +1,173 @@
+/* Page Background */
+.jobs-page {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+/* ---------- LEFT SECTION ---------- */
+.left-section {
+  width: 25%;
+}
+
+/* Profile Card */
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.profile-container img {
+  width: 60px;
+}
+
+.profile-container h1 {
+  color: #6366f1;
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.profile-container p {
+  color: #2c364c;
+  font-size: 14px;
+}
+
+/* Filter Headings */
+.left-section h1 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 16px 0 12px;
+}
+
+/* Filter Options */
+.left-section div {
+  margin-bottom: 10px;
+}
+
+.left-section label {
+  color: #ffffff;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+/* ---------- RIGHT SECTION ---------- */
+.right-section {
+  width: 75%;
+}
+
+/* Search Bar */
+.right-section input[type='search'] {
+  width: 85%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  color: #ffffff;
+  outline: none;
+}
+
+.right-section button {
+  padding: 10px 14px;
+  background-color: #272727;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column; /* stack cards vertically */
+  gap: 24px;
+}
+
+.right-section {
+  width: 75%;
+  box-sizing: border-box; /* ensures padding doesn’t add to width */
+}
+
+.job-card {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 12px;
+
+  width: 90%; /* full width of right-section */
+  max-width: 100%; /* prevents overflow */
+  box-sizing: border-box; /* include padding in width */
+}
+
+.job-card img {
+  width: 50px;
+}
+
+.job-card h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 8px 0;
+}
+
+.job-card p {
+  color: #cbd5e1;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+/* Remove Link Styling */
+.job-link {
+  text-decoration: none;
+}
+
+/* No Jobs */
+.jobs-list p {
+  color: #ffffff;
+  text-align: center;
+}
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.job-logo {
+  width: 50px;
+}
+
+.job-title {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.rating {
+  color: #fbbf24;
+  font-size: 14px;
+}
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.package {
+  font-weight: 600;
+}
+
+.description-heading {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.description-text {
+  font-size: 24px;
+  color: #cbd5e1;
+  margin-top: 8px;
+  font-family: 'Roboto';
+}

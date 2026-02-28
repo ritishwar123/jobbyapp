@@ -1,0 +1,55 @@
+.job-details-page {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 24px;
+  color: #ffffff;
+}
+
+/* Job Details Card */
+.job-details-card {
+  background-color: #272727;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.job-details-card img {
+  width: 60px;
+}
+
+.job-details-card h1 {
+  font-size: 22px;
+  margin: 8px 0;
+}
+
+.job-details-card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* Visit Link */
+.job-details-card a {
+  color: #6366f1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Similar Jobs */
+.similar-jobs-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+
+.similar-jobs-list li {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30%;
+}
+
+.similar-jobs-list img {
+  width: 50px;
+  margin-bottom: 8px;
+}

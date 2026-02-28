@@ -1,0 +1,38 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 80vh;
+}
+
+.not-found-container img {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.not-found-container h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.not-found-container p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.not-found-container button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
