@@ -3,8 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "22.x",
-    "npm": ">=6"
+    "node": "20.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
@@ -38,24 +37,6 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint:fix"
-    ],
-    "*.{js, jsx, json, html, css}": [
-      "npm run format"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ]
   },
   "browserslist": {
     "development": [
